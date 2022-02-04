@@ -1,0 +1,80 @@
+@import './variables';
+@import './resets';
+
+body {
+  background-color: black;
+  color: $heading-color;
+  margin: 0;
+  font-family: $heading-font;
+  line-height: 1.5;
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+
+  #{&}-heading {
+    color: white;
+    font-family: $heading-font;
+    font-size: 20px;
+  }
+
+  li {
+    display: inline;
+    align-self: center;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: $li-heading-font;
+    color: rgba(197, 31, 31, 0.123);
+  }
+
+  ul {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #{&}-button {
+    background: linear-gradient(to bottom, #fbe850 5%, #fbe850 100%);
+    background-color: #fbe850;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+      background: linear-gradient(to bottom, #fbe75085 5%, #fbe75098 100%);
+    }
+  }
+}
+
+a:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.slang {
+  display: flex;
+  #{&}-content {
+    font-size: 15px;
+  }
+}
+
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}

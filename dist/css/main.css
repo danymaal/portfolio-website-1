@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-family: "Prata", serif;
+  line-height: 1.5;
+  display: block;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.header .header-heading {
+  color: white;
+  font-family: "Prata", serif;
+  font-size: 20px;
+}
+
+.header li {
+  display: inline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 5px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: rgba(197, 31, 31, 0.123);
+}
+
+.header ul {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header .header-button {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fbe850), to(#fbe850));
+  background: linear-gradient(to bottom, #fbe850 5%, #fbe850 100%);
+  background-color: #fbe850;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.header .header-button:hover {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fbe75085), to(#fbe75098));
+  background: linear-gradient(to bottom, #fbe75085 5%, #fbe75098 100%);
+}
+
+a:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.slang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slang .slang-content {
+  font-size: 15px;
+}
+
+.wrapper {
+  max-width: 1100px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
