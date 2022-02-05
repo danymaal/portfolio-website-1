@@ -4,3 +4,12 @@ $heading-font: 'Prata', serif;
 $heading-color: white;
 $li-heading-font: 'Inter', sans-serif;
 $text-color: #ccc;
+$paragraph-font-size: 25px;
+$paragraph-color: #333;
+
+@mixin paragraph {
+  font-weight: 300px;
+  font-size: 25px;
+  color: $text-color;
+  line-height: 2rem;
+}

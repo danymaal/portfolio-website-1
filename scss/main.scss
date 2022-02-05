@@ -102,6 +102,7 @@ a:visited {
 .images-section {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 80px;
 
   #{&}_1 {
     max-width: 520px;
@@ -133,4 +134,21 @@ a:visited {
   }
 }
 
+.bgc-section {
+  display: flex;
+  justify-content: space-between;
 
+  #{&}_1 {
+    max-width: 500px;
+
+    h1 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      @include paragraph;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+}
